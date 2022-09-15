@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUI</title>
+</head>
+<body>
+    <form action="result.html" method="post">
+        <div>
+            <label for="name">Voornaam:</label>
+            <input type="text" id="name" name="name" placeholder="Voornaam" required 
+            pattern="[A-Za-z]+">
+        </div>
+        <div>
+            <label for="surname">Achternaam:</label>
+            <input type="text" id="surname" name="surname" placeholder="Achternaam" required
+            pattern="[A-Za-z]+">
+        </div>
+        <div>
+            <label for="gender">Geslacht:</label>
+            <input type="radio" name="gender" id="Man" value="Man" checked="checked">
+            <label for="Man">Man</label>
+            <input type="radio" name="gender" id="Vrouw" value="Vrouw">
+            <label for="Vrouw">Vrouw</label>
+            <input type="radio" name="gender" id="Anders" value="Anders">
+            <label for="Anders">Anders</label>
+        </div>
+        <div>
+            <label for="address">Straat en huisnummer:</label>
+            <input type="text" id="address" name="address" placeholder="Straat en huisnummer" required>
+        </div>
+        <div>
+            <label for="zipcode">Postcode:</label>
+            <input type="text" id="zipcode" name="zipcode" placeholder="Postcode" required>
+        </div>
+        <div>
+            <label for="city">Stad:</label>
+            <input type="text" id="city" name="city" placeholder="Stad" required>
+        </div>
+        <div>
+            <label for="country">Land:</label>
+            <input type="text" list="country" placeholder="Land" required>
+        </div>
+        <div>
+            <label for="bsn">BSN:</label>
+            <input type="text" id="bsn" name="bsn" placeholder="BSN" required
+            pattern="[0-9]+" maxlength="9" minlength="9">
+        </div>
+        <div>
+            <label for="holidaycountry">Vakantieland:</label>
+            <input list="holidaycountry" placeholder="Vakantieland">
+            <datalist id="holidaycountry">
+                <option value="Cuba"></option>
+                <option value="China"></option>
+                <option value="Vietnam"></option>
+                <option value="Noord-Korea"></option>
+                <option value="Laos"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="departuredate">Datum van vertrek:</label>
+            <input type="date" name="departuredate" required min="2023-01-01">
+        </div>
+        <div>
+            <label for="arrivalhome">Datum terugkomst</label>
+            <input type="date" id="arrival home" name="arrivalhome" required>
+        </div>
+        <div>
+            <label for="numberoftravelers">Aantal reisgenoten</label>
+            <input type="number" id="numberoftravelers" name="numberoftravelers" min="1" max="4" placeholder="Aantal reisgenoten" required>
+        </div>
+        <div>
+            <button>Boek nu</button>
+        </div>
+    </form>
+    <form action="result.html" method="post">
+        <div>
+            <label for="e-mail">e-mail</label>
+            <input type="email" id="e-mail" name="e-mail" placeholder="e-mail" required>
+        </div>
+        <div>
+            <label for="password">Wachtwoord</label>
+            <input type="password" id="password" name="password" placeholder="Wachtwoord" required>
+        </div>
+        <div>
+            <button>Maak een account</button>
+        </div>
+    </form>
+</body>
+</html>
