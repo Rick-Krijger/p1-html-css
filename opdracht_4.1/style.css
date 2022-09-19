@@ -29,3 +29,31 @@ a {
     color: #8a2be2;
     text-decoration: none;
 }
+header {
+    width: 100vw;
+    height: 40vh;  
+    background-image: url(/opdracht_4.1/img/autumnleaves.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+     
+}
+
+header p {
+    color: greenyellow;
+}
+
+header h1 {
+    color: aquamarine;
+}
+
+img {
+    width: 50vw;
+}
+
+article {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #3fadd8;
+    border-width: medium;
+    border-left-width: thick;
+}
