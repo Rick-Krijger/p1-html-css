@@ -14,6 +14,7 @@ body {
     background-color: black;
     min-height: 100vh;
     width: 100vw;
+    overflow-x: hidden
 }
 
 nav {
@@ -55,6 +56,46 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  color: #00a8c7;
+  min-width: 20vw;
+  z-index: 1;
+  margin-top: 5vh;
+}
+
+
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown {
+  color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content{
+  display: flex;
+  flex-direction: column;
+  background-color: #white;
+}
+
+.dropdown-content a:hover {
+  background-color: #e9e9e9;
+}
+
+.dropdown:hover .dropdownbtn {
+  background-color: #ffffff;
+  color: #00a8c7;
+}
+
+.dropdownbtn {
+  padding: 7vh;
 }
 
 main {
