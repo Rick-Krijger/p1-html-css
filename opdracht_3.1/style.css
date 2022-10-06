@@ -12,6 +12,8 @@ html {
 body {
     font-family: "Goldman", cursive;
     background-color: black;
+    min-height: 100vh;
+    width: 100vw;
 }
 
 nav {
@@ -19,17 +21,26 @@ nav {
   width: 100vw;
   padding: 2rem;
   min-height: 10vh;
-  align-items: center;
+  align-items: end;
   flex-wrap: wrap;
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+}
+
+.textnav {
+    width: 85vw;
+    display: flex;
+    justify-content: end;
 }
 
 nav li {
@@ -46,25 +57,49 @@ nav img {
   width: 5vw;
 }
 
- h1 {
+main {
+    margin-top: 15vh;
+}
+
+.title {
   width: 100vw;
   height: 100vh;
-  font-size: 6rem;
+  font-size: 5rem;
   text-align: center;
   background-image: url(./img/hacker.avif);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: cover; 
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  margin-bottom: 20vh;
 }
 
 h2{
   font-weight: 700;
   text-align: center;
-  font-size: 3rem;
+  font-size: 6rem;
 }
 
-div {
+.parent {
+  min-width: 100vw;
+  min-height: 100vh;
+  font-size: 2rem;
+}
+
+.child {
   font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8vh;
+}
+
+.one {
+  width: 70vh;
+}
+
+.two {
+  width: 70vh;
 }
 
 footer {
@@ -74,13 +109,10 @@ footer {
   text-align: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: auto;
   background: #00a8c7;
   font-weight: 700;
   font-size: 2rem;
+  bottom: 0;
+  left: 0;
 }
 
-section {
-  width: 100vw;
-  height: 100vh;
-}

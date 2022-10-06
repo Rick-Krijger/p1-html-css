@@ -1,0 +1,25 @@
+.container  {
+    width: 100vw;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+
+.one {
+    background-color: blue; 
+}
+
+.two {
+    background-color: black;
+}
+
+.three {
+    background-color: red;
+}
+
+.four {
+    background-color: green;
+}
