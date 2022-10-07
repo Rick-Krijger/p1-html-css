@@ -1,10 +1,13 @@
 .container  {
     width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
 }
 
 div {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 
