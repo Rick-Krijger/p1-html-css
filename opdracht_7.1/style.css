@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    height: 30vh;
+}
+
+nav {
+    color: white;
+    background-color: #EA4D4B;
+    height: 8vh;
+    font-size: 1.5rem;
+    padding: 2vh 0 0 4vw;
+}
+
+section {
+    height: 26vh;
+    width: 96vw;
+    padding: 4vh 0 0 4vw;
+}
+
+.first {
+    background-color: #F9CA22;
+}
+
+.second {
+    background-color: #F0922B;
+}
+
+.third {
+    background-color: #69B04C;
+}
+
+@media screen and (max-width: 576px){
+    nav {
+        background-color:#686DE0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .square {
+        width: 2vh;
+        height: 2vh;
+        background-color: white;
+        margin: 2vh;
+    }
+    
+    section {
+        text-align: center;
+        color: white;
+        width: 90vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 5vw 0 5vw;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first {
+        background-color: #7ED6DF;
+    }
+
+    .second {
+        background-color: #E056FD;
+    }
+
+    .third {
+        background-color: #30336A;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    nav {
+        background-color:#FF6B81;
+        text-align: center;
+        padding: 3vh 0 2vh 0;
+    }
+    
+    section {
+        color: white;
+        width: 96vw;
+        height: 25vh;
+        padding: 2vh 2vw 2vh 2vw;
+    }
+
+    .first {
+        background-color: #FE4657;
+    }
+
+    .second {
+        background-color: #5352EC;
+    }
+
+    .third {
+        background-color: #3742F9;
+    }
+}

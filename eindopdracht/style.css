@@ -1,0 +1,310 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    background-color: #131c27;
+    color: white;
+    width: 100vw;
+    height: 9.5vh;
+    position: fixed;
+}
+
+nav ul {
+    color: white;
+    display: flex;
+}
+
+.title {
+    font-family: 'Pattaya', sans-serif;
+    margin-left: 5vw;
+}
+
+.navchild {
+    display: flex;
+    width: 46vw;
+    justify-content: left;
+    align-items: center;
+}
+
+.navchildtwo {
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8 rem
+}
+
+.navchildtwo li {
+    list-style-type: none;
+}
+
+.navchildtwo a {
+    color: white;
+    text-decoration: none;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.0)) , url(./img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.first h2 {
+   margin-bottom: 4vh;
+   font-size: 3rem; 
+}
+
+.first p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.first button {
+    background-color: #4c6e97;
+    border: none;
+    color: white;
+    width: 13vw;
+    height: 8vh;
+    margin-top: 4vh;
+    font-size: 1.2rem;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0)) , url(./img/new-york-page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+    align-items: left;
+    font-size: 1.5rem;
+}
+
+.innersecond {
+    margin-left: 5vw;
+}
+
+.innersecond h2 {
+    width: 25vw;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    font-size: 3rem;
+    margin-bottom: 4vh;
+}
+
+.innersecond p {
+    font-size: 2rem;
+}
+
+.third {
+    width: 100vw;
+    height: 100vh;
+}
+
+.thirdintro {
+    background-color: #131c27;
+    color: white;
+    height: 27vh;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thirdintro p {
+    width: 54vw;
+    margin: 0 23vw 0 23vw;
+    font-size: 1.9rem;
+}
+
+.cardparent {
+    display: flex;
+    width: 100vw;
+    height: 55vh;
+    color: #131c27;
+    justify-content: space-evenly;
+    margin-top: 4vw;
+}
+
+.cardchild {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #131c27;
+    width: 25vw;
+    height: 55vh;
+    box-shadow: 0 15px 15px -8px rgb(0 0 0 / 0.2);
+}
+
+.cardchild img {
+    background-color: #131c27;
+    width: 5vw;
+    height: 5vw;
+    padding: 1vw 10vw 1vw 10vw;
+}
+
+.cardchild h3 {
+    font-size: 1.8rem;
+    padding: 2vw 0 2vw 0;
+}
+
+.cardchild p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2vw 1vw 4vw 1vw;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0)) , url(./img/contact-mountain.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 60vw;
+    height: 50vh;
+    text-align: center;
+    background: rgba(19, 28, 39, 0.75);
+    border-radius: 10px;
+    padding-top: 10vh;
+}
+
+.contact h2 {
+    font-size: 3rem;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    height: 5vh;
+    width: 13vw;
+    margin-left: 2vw;
+}
+
+.contact button {
+    width: 60vw;
+    height: 8vh;
+    background-color: #4c6e97;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0 0 10px 10px;
+}
+
+footer {
+    display: flex;
+    display: space-between;
+    background-color: #131c27;
+    color: white;
+    width: 100vw;
+    height: 6vh;
+}
+
+.footertext {
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+.icn {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    align-items: center;
+    padding: 0 5vw 0 5vw;
+}
+
+@media screen and (max-width: 576px) {
+    nav{
+        height: 12vh;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navchild {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .title {
+        margin-left: 0;
+    }
+
+    .navchildtwo {
+        width: 100vw;
+        display: flex;
+    }
+
+    .navchildtwo a {
+        width: 30vw;
+    }
+
+    .first p {
+        font-size: 2rem;
+        padding: 0 5vw 0 5vw;
+    }
+
+    .first button {
+        width: 30vw;
+    }
+
+    .second h2 {
+        width: 66vw;
+    }
+
+    .thirdintro {
+        height: 40vh;
+    }
+
+    .thirdintro p {
+        margin: 0 0vw 0 5vw;
+    }
+}
